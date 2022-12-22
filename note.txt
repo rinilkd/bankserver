@@ -1,0 +1,102 @@
+server creation - using express
+----------------
+   
+   install express
+         -npm i express
+  
+1. import express
+
+2. create an app using express
+
+3. create a code number   (3000)
+
+4. create requests according to our projects
+
+
+
+nodemon server
+--------------
+-npm i -g nodemon
+
+
+user authentication using express
+-----------------------------------
+JWT(json web token) token
+------------------------
+jsonwebtoken - library npm i jsonwebtoken
+sign()       - method used for generate token
+verify()     - method to verify jwt 
+
+middlewares
+------------
+-middlewares have the capacity to control server requests
+-its a fuction with 3 arguments  (request,respose,next)
+
+there are 2 types of middlewares
+  -application specific middlewares
+  -router specific middlewares
+
+
+solving run-time errors in JS
+------------------------------
+try - catch 
+
+try{
+      error causing code
+}
+catch{
+      solution
+}
+
+Mogo db
+--------
+-mongodb server
+-shell commands in mongodb
+-to see the database
+      -> to show database
+      -open database
+      ->use database_name
+-view collection inside database
+->show collection
+-to view dat inside the collection
+->db.collection_name.find()
+-to view any single data inside collection
+-db.collection_name.findOne({unique data to identify})
+
+-to insert the new data
+->db.collection_name.insertOne({data})
+
+-to view any single data accordingto a condition
+     ->db.collection_name.find({condition})     // all data
+     ->db.collection_name.findOne({condition})  // single data
+
+-delete
+     ->delete single data
+      ->db.collection_name.deleteOne({data})
+      ->delete count=number
+      ->delete count=0   if nothing
+
+
+update
+-db.collection_name.updateOne({data to update}),({new data})
+
+
+
+crud  -create read update delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
